@@ -7,7 +7,7 @@ In this project a jQuery plugin to display a calendar can be found. The required
 In index.html there is an example of how to display the calendar.
 
 The plugin has some settings that can be customized:
-* '''month''' : The month to be displayed. Default value is current month.
+* month : The month to be displayed. Default value is current month.
 * year: The year to be displayed. Default value is current year.
 * showDayDetails: If true, it displays a panel with the details for a day. Default value is false.
 * monthNames: An array with the names of the months. Default value is ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'].
