@@ -20,6 +20,7 @@ The plugin has some settings that can be customized:
   - description
   - startdate
   - enddate
+
 ###Usage
 In order to display a calendar you must insert a div in an html file and call the calendar() function. In order to add events you must call the 'add_event' function in the calendar object.
 
