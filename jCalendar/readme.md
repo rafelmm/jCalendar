@@ -27,6 +27,7 @@ In order to display a calendar you must insert a div in an html file and call th
 Example:
 <pre><code>
 &lt;div id="jCalendar"&gt;&lt;/div&gt;
+
 &lt;script&gt;<br/>
   var myCalendar = $('#jCalendar').calendar();<br/>
   myCalendar.calendar('add_event',{<br/>
