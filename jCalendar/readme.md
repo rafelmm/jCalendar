@@ -13,8 +13,8 @@ The plugin has some settings that can be customized:
 * monthNames: An array with the names of the months. Default value is ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'].
 * dayNamesShort: An array with short names of the dyas to display in the header of the calendar. Default value is ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su'].
 * events: An array containing events to show in the calendar. An event is a javascript object with the following properties:
-*   id
-*   name
-*   description
-*   startdate
-*   enddate
+  - id
+  - name
+  - description
+  - startdate
+  - enddate
