@@ -25,9 +25,8 @@ The plugin has some settings that can be customized:
 In order to display a calendar you must insert a div in an html file and call the calendar() function. In order to add events you must call the 'add_event' function in the calendar object.
 
 Example:
-
+<pre><code>
 &lt;div id="jCalendar"&gt;&lt;/div&gt;
-
 &lt;script&gt;<br/>
   var myCalendar = $('#jCalendar').calendar();<br/>
   myCalendar.calendar('add_event',{<br/>
@@ -38,3 +37,4 @@ Example:
 					'enddate': (function(){d=new Date();d.setDate(d.getDate()-1);return d;})()<br/>
 			});<br/>
 &lt;/script&gt;
+</pre></code>
