@@ -25,15 +25,16 @@ The plugin has some settings that can be customized:
 In order to display a calendar you must insert a div in an html file and call the calendar() function. In order to add events you must call the 'add_event' function in the calendar object.
 
 Example:
+
 &lt;div id="jCalendar"&gt;&lt;/div&gt;
 
-&lt;script&gt;
-  var myCalendar = $('#jCalendar').calendar();
-  myCalendar.calendar('add_event',{
-					'id': 2,
-					'name': 'Added event',
-					'description': 'Demo of adding and event to the calendar using javascript.',
-					'startdate': (function(){d=new Date();d.setDate(d.getDate()-1);return d;})(),
-					'enddate': (function(){d=new Date();d.setDate(d.getDate()-1);return d;})()
-			});
+&lt;script&gt;<br/>
+  var myCalendar = $('#jCalendar').calendar();<br/>
+  myCalendar.calendar('add_event',{<br/>
+					'id': 2,<br/>
+					'name': 'Added event',<br/>
+					'description': 'Demo of adding and event to the calendar using javascript.',<br/>
+					'startdate': (function(){d=new Date();d.setDate(d.getDate()-1);return d;})(),<br/>
+					'enddate': (function(){d=new Date();d.setDate(d.getDate()-1);return d;})()<br/>
+			});<br/>
 &lt;/script&gt;
