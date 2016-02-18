@@ -31,7 +31,17 @@
 		<script src="js/data.js"></script>
 		<script src="js/calendar.js"></script>
 		<script>
-			var myCalendar = $('#jCalendar').calendar();
+			var myCalendar = $('#jCalendar').calendar({
+				'showDayDetails': true,
+			});
+			
+			myCalendar.calendar('add_event',{
+					'id': 2,
+					'name': 'Added event',
+					'description': 'Demo of adding and event to the calendar using javascript.',
+					'startdate': (function(){d=new Date();d.setDate(d.getDate()-1);return d;})(),
+					'enddate': (function(){d=new Date();d.setDate(d.getDate()-1);return d;})()
+			});
 		</script>
 	</body>
 </html>
